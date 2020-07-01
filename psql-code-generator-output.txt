@@ -1,0 +1,27 @@
+ubuntu@ip-172-31-4-17:~/opt/qto/qto.0.8.6.dev.ubuntu@ip-172-31-4-17$ bash src/tpl/psql-code-generator/psql-code-generator.sh dev_qto release_issues monthly_issues
+src/tpl/psql-code-generator/psql-code-generator.sh: line 136: PRODUCT_INSTANCE_DIR/.env: No such file or directory
+the json_file: PRODUCT_INSTANCE_DIR/cnf/env/dev.env.json does not exist !!! Nothing to do
+::: start the tables and columns only
+release_issues.guid , release_issues.id , release_issues.type , release_issues.category_guid , release_issues.issues_status_guid , release_issues.prio , release_issues.name , release_issues.description , release_issues.owner , release_issues.version , release_issues.update_time
+::: stop  the tables and columns only 
+
+
+::: start generate the select all string
+SELECT guid , id , type , category_guid , issues_status_guid , prio , name , description , owner , version , update_time FROM dev_qto.release_issues;
+
+:::  stop generate the select all string 
+
+
+::: start generate the select into another table string
+      INSERT INTO monthly_issues
+      ( guid , id , type , category_guid , issues_status_guid , prio , name , description , owner , version , update_time )
+      SELECT guid , id , type , category_guid , issues_status_guid , prio , name , description , owner , version , update_time
+      FROM release_issues
+      ON CONFLICT (id) DO UPDATE SET 
+      guid = excluded.guid, id = excluded.id, type = excluded.type, category_guid = excluded.category_guid, issues_status_guid = excluded.issues_status_guid, prio = excluded.prio, name = excluded.name, description = excluded.description, owner = excluded.owner, version = excluded.version, update_time = excluded.update_time;
+
+:::  stop generate the select into another table string 
+
+
+ERROR:  column "category_guid" of relation "monthly_issues" does not exist
+LINE 2:       ( guid , id , type , category_guid , issues_status_gui...

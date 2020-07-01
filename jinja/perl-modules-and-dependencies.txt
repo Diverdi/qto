@@ -1,0 +1,610 @@
+::Simple Mojolicious Mojolicious::Plugin::BasicAuthPlus Mojolicious::Plugin::StaticCache Mojolicious::Plugin::RenderFile Mojolicious::Plugin::Authentication IO::Socket::SSL URL::Encode ExtUtils::Installed File::Copy File::Find File::Path Spreadsheet::ParseExcel Spreadsheet::XLSX Spreadsheet::ParseExcel::FmtJapan Text::CSV_XS Module::Build::Tiny File::Copy::Recursive Test::Trap Test::More Test::Most Test::Mojo DBD::Pg Tie::Hash::DBD Scalar::Util::Numeric Time::HiRes Mojo::JWT Mojo::Pg Mojo::Phantom Authen::Passphrase::BlowfishCrypt Term::ReadKey Term::Prompt DBIx::ProcedureCall Storable Redis Crypt::OpenSSL::RSA Gravatar::URL Mojolicious::Plugin::Gzip Excel::Writer::XLSX
+--> Working on JSON
+Fetching http://www.cpan.org/authors/id/I/IS/ISHIGAKI/JSON-4.02.tar.gz ... OK
+Configuring JSON-4.02 ... OK
+Building and testing JSON-4.02 ... OK
+Successfully installed JSON-4.02
+--> Working on JSON::Parse
+Fetching http://www.cpan.org/authors/id/B/BK/BKB/JSON-Parse-0.56.tar.gz ... OK
+Configuring JSON-Parse-0.56 ... OK
+Building and testing JSON-Parse-0.56 ... OK
+Successfully installed JSON-Parse-0.56
+--> Working on Data::Printer
+Fetching http://www.cpan.org/authors/id/G/GA/GARU/Data-Printer-0.40.tar.gz ... OK
+Configuring Data-Printer-0.40 ... OK
+==> Found dependencies: Sort::Naturally, Clone::PP
+--> Working on Sort::Naturally
+Fetching http://www.cpan.org/authors/id/B/BI/BINGOS/Sort-Naturally-1.03.tar.gz ... OK
+Configuring Sort-Naturally-1.03 ... OK
+Building and testing Sort-Naturally-1.03 ... OK
+Successfully installed Sort-Naturally-1.03
+--> Working on Clone::PP
+Fetching http://www.cpan.org/authors/id/N/NE/NEILB/Clone-PP-1.07.tar.gz ... OK
+Configuring Clone-PP-1.07 ... OK
+Building and testing Clone-PP-1.07 ... OK
+Successfully installed Clone-PP-1.07
+Building and testing Data-Printer-0.40 ... OK
+Successfully installed Data-Printer-0.40
+--> Working on Carp::Always
+Fetching http://www.cpan.org/authors/id/F/FE/FERREIRA/Carp-Always-0.16.tar.gz ... OK
+Configuring Carp-Always-0.16 ... OK
+==> Found dependencies: Test::Base
+--> Working on Test::Base
+Fetching http://www.cpan.org/authors/id/I/IN/INGY/Test-Base-0.89.tar.gz ... OK
+Configuring Test-Base-0.89 ... OK
+==> Found dependencies: Spiffy, Text::Diff
+--> Working on Spiffy
+Fetching http://www.cpan.org/authors/id/I/IN/INGY/Spiffy-0.46.tar.gz ... OK
+Configuring Spiffy-0.46 ... OK
+Building and testing Spiffy-0.46 ... OK
+Successfully installed Spiffy-0.46
+--> Working on Text::Diff
+Fetching http://www.cpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz ... OK
+Configuring Text-Diff-1.45 ... OK
+Building and testing Text-Diff-1.45 ... OK
+Successfully installed Text-Diff-1.45
+Building and testing Test-Base-0.89 ... OK
+Successfully installed Test-Base-0.89
+Building and testing Carp-Always-0.16 ... OK
+Successfully installed Carp-Always-0.16
+--> Working on IO::CaptureOutput
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/IO-CaptureOutput-1.1105.tar.gz ... OK
+Configuring IO-CaptureOutput-1.1105 ... OK
+Building and testing IO-CaptureOutput-1.1105 ... OK
+Successfully installed IO-CaptureOutput-1.1105
+--> Working on Net::DNS
+Fetching http://www.cpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.24.tar.gz ... OK
+Configuring Net-DNS-1.24 ... OK
+==> Found dependencies: Digest::HMAC
+--> Working on Digest::HMAC
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/Digest-HMAC-1.03.tar.gz ... OK
+Configuring Digest-HMAC-1.03 ... OK
+Building and testing Digest-HMAC-1.03 ... OK
+Successfully installed Digest-HMAC-1.03
+Building and testing Net-DNS-1.24 ... OK
+Successfully installed Net-DNS-1.24
+--> Working on Net::Domain::TLD
+Fetching http://www.cpan.org/authors/id/A/AL/ALEXP/Net-Domain-TLD-1.75.tar.gz ... OK
+Configuring Net-Domain-TLD-1.75 ... OK
+Building and testing Net-Domain-TLD-1.75 ... OK
+Successfully installed Net-Domain-TLD-1.75
+--> Working on Email::Valid
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Email-Valid-1.202.tar.gz ... OK
+Configuring Email-Valid-1.202 ... OK
+Building and testing Email-Valid-1.202 ... OK
+Successfully installed Email-Valid-1.202
+FindBin is up to date. (1.51)
+--> Working on IPC::System::Simple
+Fetching http://www.cpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.30.tar.gz ... OK
+Configuring IPC-System-Simple-1.30 ... OK
+Building and testing IPC-System-Simple-1.30 ... OK
+Successfully installed IPC-System-Simple-1.30 (upgraded from 1.25)
+Mojolicious is up to date. (8.55)
+--> Working on Mojolicious::Plugin::BasicAuthPlus
+Fetching http://www.cpan.org/authors/id/B/BL/BLR/Mojolicious-Plugin-BasicAuthPlus-0.11.3.tar.gz ... OK
+Configuring Mojolicious-Plugin-BasicAuthPlus-v0.11.3 ... OK
+==> Found dependencies: Net::LDAP, Authen::Simple::Passwd, Authen::Simple::Password
+--> Working on Net::LDAP
+Fetching http://www.cpan.org/authors/id/M/MA/MARSCHAP/perl-ldap-0.66.tar.gz ... OK
+Configuring perl-ldap-0.66 ... OK
+==> Found dependencies: Text::Soundex, Convert::ASN1
+--> Working on Text::Soundex
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Text-Soundex-3.05.tar.gz ... OK
+Configuring Text-Soundex-3.05 ... OK
+Building and testing Text-Soundex-3.05 ... OK
+Successfully installed Text-Soundex-3.05
+--> Working on Convert::ASN1
+Fetching http://www.cpan.org/authors/id/G/GB/GBARR/Convert-ASN1-0.27.tar.gz ... OK
+Configuring Convert-ASN1-0.27 ... OK
+Building and testing Convert-ASN1-0.27 ... OK
+Successfully installed Convert-ASN1-0.27
+Building and testing perl-ldap-0.66 ... OK
+Successfully installed perl-ldap-0.66
+--> Working on Authen::Simple::Passwd
+Fetching http://www.cpan.org/authors/id/C/CH/CHANSEN/Authen-Simple-Passwd-0.6.tar.gz ... OK
+==> Found dependencies: Module::Build
+--> Working on Module::Build
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-0.4231.tar.gz ... OK
+Configuring Module-Build-0.4231 ... OK
+Building and testing Module-Build-0.4231 ... OK
+Successfully installed Module-Build-0.4231
+Configuring Authen-Simple-Passwd-0.6 ... OK
+==> Found dependencies: Authen::Simple
+--> Working on Authen::Simple
+Fetching http://www.cpan.org/authors/id/C/CH/CHANSEN/Authen-Simple-0.5.tar.gz ... OK
+Configuring Authen-Simple-0.5 ... OK
+==> Found dependencies: Class::Accessor::Fast, Crypt::PasswdMD5
+--> Working on Class::Accessor::Fast
+Fetching http://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz ... OK
+Configuring Class-Accessor-0.51 ... OK
+Building and testing Class-Accessor-0.51 ... OK
+Successfully installed Class-Accessor-0.51
+--> Working on Crypt::PasswdMD5
+Fetching http://www.cpan.org/authors/id/R/RS/RSAVAGE/Crypt-PasswdMD5-1.40.tgz ... OK
+Configuring Crypt-PasswdMD5-1.40 ... OK
+Building and testing Crypt-PasswdMD5-1.40 ... OK
+Successfully installed Crypt-PasswdMD5-1.40
+Building and testing Authen-Simple-0.5 ... OK
+Successfully installed Authen-Simple-0.5
+Building and testing Authen-Simple-Passwd-0.6 ... OK
+Successfully installed Authen-Simple-Passwd-0.6
+Building and testing Mojolicious-Plugin-BasicAuthPlus-v0.11.3 ... OK
+Successfully installed Mojolicious-Plugin-BasicAuthPlus-v0.11.3
+--> Working on Mojolicious::Plugin::StaticCache
+Fetching http://www.cpan.org/authors/id/L/LD/LDIDRY/Mojolicious-Plugin-StaticCache-0.02.tar.gz ... OK
+Configuring Mojolicious-Plugin-StaticCache-0.02 ... OK
+Building and testing Mojolicious-Plugin-StaticCache-0.02 ... OK
+Successfully installed Mojolicious-Plugin-StaticCache-0.02
+--> Working on Mojolicious::Plugin::RenderFile
+Fetching http://www.cpan.org/authors/id/K/KO/KOORCHIK/Mojolicious-Plugin-RenderFile-0.12.tar.gz ... OK
+Configuring Mojolicious-Plugin-RenderFile-0.12 ... OK
+Building and testing Mojolicious-Plugin-RenderFile-0.12 ... OK
+Successfully installed Mojolicious-Plugin-RenderFile-0.12
+--> Working on Mojolicious::Plugin::Authentication
+Fetching http://www.cpan.org/authors/id/J/JJ/JJATRIA/Mojolicious-Plugin-Authentication-1.33.tar.gz ... OK
+Configuring Mojolicious-Plugin-Authentication-1.33 ... OK
+Building and testing Mojolicious-Plugin-Authentication-1.33 ... OK
+Successfully installed Mojolicious-Plugin-Authentication-1.33
+--> Working on IO::Socket::SSL
+Fetching http://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.068.tar.gz ... OK
+Configuring IO-Socket-SSL-2.068 ... OK
+==> Found dependencies: Mozilla::CA
+--> Working on Mozilla::CA
+Fetching http://www.cpan.org/authors/id/A/AB/ABH/Mozilla-CA-20200520.tar.gz ... OK
+Configuring Mozilla-CA-20200520 ... OK
+Building and testing Mozilla-CA-20200520 ... OK
+Successfully installed Mozilla-CA-20200520
+Building and testing IO-Socket-SSL-2.068 ... OK
+Successfully installed IO-Socket-SSL-2.068 (upgraded from 2.060)
+--> Working on URL::Encode
+Fetching http://www.cpan.org/authors/id/C/CH/CHANSEN/URL-Encode-0.03.tar.gz ... OK
+Configuring URL-Encode-0.03 ... OK
+Building and testing URL-Encode-0.03 ... OK
+Successfully installed URL-Encode-0.03
+--> Working on ExtUtils::Installed
+Fetching http://www.cpan.org/authors/id/B/BI/BINGOS/ExtUtils-Install-2.16.tar.gz ... OK
+Configuring ExtUtils-Install-2.16 ... OK
+Building and testing ExtUtils-Install-2.16 ... OK
+Successfully installed ExtUtils-Install-2.16 (upgraded from 2.04)
+skipping X/XS/XSAWYERX/perl-5.32.0.tar.gz
+--> Working on File::Path
+Fetching http://www.cpan.org/authors/id/J/JK/JKEENAN/File-Path-2.16.tar.gz ... OK
+Configuring File-Path-2.16 ... OK
+Building and testing File-Path-2.16 ... OK
+Successfully installed File-Path-2.16 (upgraded from 2.12_01)
+--> Working on Spreadsheet::ParseExcel
+Fetching http://www.cpan.org/authors/id/D/DO/DOUGW/Spreadsheet-ParseExcel-0.65.tar.gz ... OK
+Configuring Spreadsheet-ParseExcel-0.65 ... OK
+==> Found dependencies: Digest::Perl::MD5, Crypt::RC4, OLE::Storage_Lite
+--> Working on Digest::Perl::MD5
+Fetching http://www.cpan.org/authors/id/D/DE/DELTA/Digest-Perl-MD5-1.9.tar.gz ... OK
+Configuring Digest-Perl-MD5-1.9 ... OK
+Building and testing Digest-Perl-MD5-1.9 ... OK
+Successfully installed Digest-Perl-MD5-1.9
+--> Working on Crypt::RC4
+Fetching http://www.cpan.org/authors/id/S/SI/SIFUKURT/Crypt-RC4-2.02.tar.gz ... OK
+Configuring Crypt-RC4-2.02 ... OK
+Building and testing Crypt-RC4-2.02 ... OK
+Successfully installed Crypt-RC4-2.02
+--> Working on OLE::Storage_Lite
+Fetching http://www.cpan.org/authors/id/J/JM/JMCNAMARA/OLE-Storage_Lite-0.20.tar.gz ... OK
+Configuring OLE-Storage_Lite-0.20 ... OK
+Building and testing OLE-Storage_Lite-0.20 ... OK
+Successfully installed OLE-Storage_Lite-0.20
+Building and testing Spreadsheet-ParseExcel-0.65 ... OK
+Successfully installed Spreadsheet-ParseExcel-0.65
+--> Working on Spreadsheet::XLSX
+Fetching http://www.cpan.org/authors/id/M/MI/MIKEB/Spreadsheet-XLSX-0.15.tar.gz ... OK
+Configuring Spreadsheet-XLSX-0.15 ... OK
+==> Found dependencies: Archive::Zip, Test::NoWarnings
+--> Working on Archive::Zip
+Fetching http://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz ... OK
+Configuring Archive-Zip-1.68 ... OK
+Building and testing Archive-Zip-1.68 ... OK
+Successfully installed Archive-Zip-1.68
+--> Working on Test::NoWarnings
+Fetching http://www.cpan.org/authors/id/A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz ... OK
+Configuring Test-NoWarnings-1.04 ... OK
+Building and testing Test-NoWarnings-1.04 ... OK
+Successfully installed Test-NoWarnings-1.04
+Building and testing Spreadsheet-XLSX-0.15 ... OK
+Successfully installed Spreadsheet-XLSX-0.15
+--> Working on Text::CSV_XS
+Fetching http://www.cpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.43.tgz ... OK
+Configuring Text-CSV_XS-1.43 ... OK
+Building and testing Text-CSV_XS-1.43 ... OK
+Successfully installed Text-CSV_XS-1.43
+--> Working on Module::Build::Tiny
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz ... OK
+==> Found dependencies: ExtUtils::Helpers, ExtUtils::Config, ExtUtils::InstallPaths
+--> Working on ExtUtils::Helpers
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz ... OK
+Configuring ExtUtils-Helpers-0.026 ... OK
+Building and testing ExtUtils-Helpers-0.026 ... OK
+Successfully installed ExtUtils-Helpers-0.026
+--> Working on ExtUtils::Config
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-Config-0.008.tar.gz ... OK
+Configuring ExtUtils-Config-0.008 ... OK
+Building and testing ExtUtils-Config-0.008 ... OK
+Successfully installed ExtUtils-Config-0.008
+--> Working on ExtUtils::InstallPaths
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz ... OK
+Configuring ExtUtils-InstallPaths-0.012 ... OK
+Building and testing ExtUtils-InstallPaths-0.012 ... OK
+Successfully installed ExtUtils-InstallPaths-0.012
+Configuring Module-Build-Tiny-0.039 ... OK
+Building and testing Module-Build-Tiny-0.039 ... OK
+Successfully installed Module-Build-Tiny-0.039
+--> Working on File::Copy::Recursive
+Fetching http://www.cpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz ... OK
+Configuring File-Copy-Recursive-0.45 ... OK
+==> Found dependencies: Test::File, Test::Warnings, Test::Fatal, Path::Tiny, Test::Deep
+--> Working on Test::File
+Fetching http://www.cpan.org/authors/id/B/BD/BDFOY/Test-File-1.443.tar.gz ... OK
+Configuring Test-File-1.443 ... OK
+==> Found dependencies: Test::utf8
+--> Working on Test::utf8
+Fetching http://www.cpan.org/authors/id/M/MA/MARKF/Test-utf8-1.02.tar.gz ... OK
+Configuring Test-utf8-1.01 ... OK
+Building and testing Test-utf8-1.01 ... OK
+Successfully installed Test-utf8-1.01
+Building and testing Test-File-1.443 ... OK
+Successfully installed Test-File-1.443
+--> Working on Test::Warnings
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.030.tar.gz ... OK
+Configuring Test-Warnings-0.030 ... OK
+Building and testing Test-Warnings-0.030 ... OK
+Successfully installed Test-Warnings-0.030
+--> Working on Test::Fatal
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz ... OK
+Configuring Test-Fatal-0.014 ... OK
+Building and testing Test-Fatal-0.014 ... OK
+Successfully installed Test-Fatal-0.014
+--> Working on Path::Tiny
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.114.tar.gz ... OK
+Configuring Path-Tiny-0.114 ... OK
+Building and testing Path-Tiny-0.114 ... OK
+Successfully installed Path-Tiny-0.114
+--> Working on Test::Deep
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz ... OK
+Configuring Test-Deep-1.130 ... OK
+Building and testing Test-Deep-1.130 ... OK
+Successfully installed Test-Deep-1.130
+Building and testing File-Copy-Recursive-0.45 ... OK
+Successfully installed File-Copy-Recursive-0.45
+--> Working on Test::Trap
+Fetching http://www.cpan.org/authors/id/E/EB/EBHANSSEN/Test-Trap-v0.3.4.tar.gz ... OK
+Configuring Test-Trap-v0.3.4 ... OK
+Building and testing Test-Trap-v0.3.4 ... OK
+Successfully installed Test-Trap-v0.3.4
+--> Working on Test::More
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.302175.tar.gz ... OK
+Configuring Test-Simple-1.302175 ... OK
+Building and testing Test-Simple-1.302175 ... OK
+Successfully installed Test-Simple-1.302175 (upgraded from 1.302073)
+--> Working on Test::Most
+Fetching http://www.cpan.org/authors/id/O/OV/OVID/Test-Most-0.37.tar.gz ... OK
+Configuring Test-Most-0.37 ... OK
+==> Found dependencies: Test::Exception, Test::Differences, Test::Warn
+--> Working on Test::Exception
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz ... OK
+Configuring Test-Exception-0.43 ... OK
+==> Found dependencies: Sub::Uplevel
+--> Working on Sub::Uplevel
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz ... OK
+Configuring Sub-Uplevel-0.2800 ... OK
+Building and testing Sub-Uplevel-0.2800 ... OK
+Successfully installed Sub-Uplevel-0.2800
+Building and testing Test-Exception-0.43 ... OK
+Successfully installed Test-Exception-0.43
+--> Working on Test::Differences
+Fetching http://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.67.tar.gz ... OK
+Configuring Test-Differences-0.67 ... OK
+==> Found dependencies: Capture::Tiny
+--> Working on Capture::Tiny
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz ... OK
+Configuring Capture-Tiny-0.48 ... OK
+Building and testing Capture-Tiny-0.48 ... OK
+Successfully installed Capture-Tiny-0.48
+Building and testing Test-Differences-0.67 ... OK
+Successfully installed Test-Differences-0.67
+--> Working on Test::Warn
+Fetching http://www.cpan.org/authors/id/B/BI/BIGJ/Test-Warn-0.36.tar.gz ... OK
+Configuring Test-Warn-0.36 ... OK
+Building and testing Test-Warn-0.36 ... OK
+Successfully installed Test-Warn-0.36
+Building and testing Test-Most-0.37 ... OK
+Successfully installed Test-Most-0.37
+--> Working on DBD::Pg
+Fetching http://www.cpan.org/authors/id/T/TU/TURNSTEP/DBD-Pg-3.13.0.tar.gz ... OK
+==> Found dependencies: DBI
+--> Working on DBI
+Fetching http://www.cpan.org/authors/id/T/TI/TIMB/DBI-1.643.tar.gz ... OK
+Configuring DBI-1.643 ... OK
+Building and testing DBI-1.643 ... OK
+Successfully installed DBI-1.643
+Configuring DBD-Pg-3.13.0 ... OK
+Building and testing DBD-Pg-3.13.0 ... OK
+Successfully installed DBD-Pg-3.13.0
+--> Working on Tie::Hash::DBD
+Fetching http://www.cpan.org/authors/id/H/HM/HMBRAND/Tie-Hash-DBD-0.21.tgz ... OK
+Configuring Tie-Hash-DBD-0.21 ... OK
+Building and testing Tie-Hash-DBD-0.21 ... OK
+Successfully installed Tie-Hash-DBD-0.21
+--> Working on Scalar::Util::Numeric
+Fetching http://www.cpan.org/authors/id/C/CH/CHOCOLATE/Scalar-Util-Numeric-0.40.tar.gz ... OK
+Configuring Scalar-Util-Numeric-0.40 ... OK
+Building and testing Scalar-Util-Numeric-0.40 ... OK
+Successfully installed Scalar-Util-Numeric-0.40
+--> Working on Time::HiRes
+Fetching http://www.cpan.org/authors/id/A/AT/ATOOMIC/Time-HiRes-1.9760.tar.gz ... OK
+Configuring Time-HiRes-1.9760 ... OK
+Building and testing Time-HiRes-1.9760 ... OK
+Successfully installed Time-HiRes-1.9760 (upgraded from 1.9741)
+--> Working on Mojo::JWT
+Fetching http://www.cpan.org/authors/id/J/JB/JBERGER/Mojo-JWT-0.08.tar.gz ... OK
+Configuring Mojo-JWT-0.08 ... OK
+Building and testing Mojo-JWT-0.08 ... OK
+Successfully installed Mojo-JWT-0.08
+--> Working on Mojo::Pg
+Fetching http://www.cpan.org/authors/id/S/SR/SRI/Mojo-Pg-4.19.tar.gz ... OK
+Configuring Mojo-Pg-4.19 ... OK
+==> Found dependencies: SQL::Abstract
+--> Working on SQL::Abstract
+Fetching http://www.cpan.org/authors/id/I/IL/ILMARI/SQL-Abstract-1.87.tar.gz ... OK
+Configuring SQL-Abstract-1.87 ... OK
+==> Found dependencies: Moo, Hash::Merge
+--> Working on Moo
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Moo-2.004000.tar.gz ... OK
+Configuring Moo-2.004000 ... OK
+==> Found dependencies: Role::Tiny, Sub::Defer, Sub::Quote
+--> Working on Role::Tiny
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.001004.tar.gz ... OK
+Configuring Role-Tiny-2.001004 ... OK
+Building and testing Role-Tiny-2.001004 ... OK
+Successfully installed Role-Tiny-2.001004 (upgraded from 2.000006)
+--> Working on Sub::Defer
+Fetching http://www.cpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006006.tar.gz ... OK
+Configuring Sub-Quote-2.006006 ... OK
+Building and testing Sub-Quote-2.006006 ... OK
+Successfully installed Sub-Quote-2.006006 (upgraded from 2.005000)
+Building and testing Moo-2.004000 ... OK
+Successfully installed Moo-2.004000
+--> Working on Hash::Merge
+Fetching http://www.cpan.org/authors/id/R/RE/REHSACK/Hash-Merge-0.300.tar.gz ... OK
+Configuring Hash-Merge-0.300 ... OK
+==> Found dependencies: Clone::Choose
+--> Working on Clone::Choose
+Fetching http://www.cpan.org/authors/id/H/HE/HERMES/Clone-Choose-0.010.tar.gz ... OK
+Configuring Clone-Choose-0.010 ... OK
+==> Found dependencies: Test::Without::Module
+--> Working on Test::Without::Module
+Fetching http://www.cpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz ... OK
+Configuring Test-Without-Module-0.20 ... OK
+Building and testing Test-Without-Module-0.20 ... OK
+Successfully installed Test-Without-Module-0.20
+Building and testing Clone-Choose-0.010 ... OK
+Successfully installed Clone-Choose-0.010
+Building and testing Hash-Merge-0.300 ... OK
+Successfully installed Hash-Merge-0.300
+Building and testing SQL-Abstract-1.87 ... OK
+Successfully installed SQL-Abstract-1.87
+Building and testing Mojo-Pg-4.19 ... OK
+Successfully installed Mojo-Pg-4.19
+--> Working on Mojo::Phantom
+Fetching http://www.cpan.org/authors/id/J/JB/JBERGER/Mojo-Phantom-0.11.tar.gz ... OK
+Configuring Mojo-Phantom-0.11 ... OK
+==> Found dependencies: Test::Mojo::WithRoles, Test2::Suite, JavaScript::Value::Escape
+--> Working on Test::Mojo::WithRoles
+Fetching http://www.cpan.org/authors/id/J/JB/JBERGER/Test-Mojo-WithRoles-0.02.tar.gz ... OK
+Configuring Test-Mojo-WithRoles-0.02 ... OK
+Building and testing Test-Mojo-WithRoles-0.02 ... OK
+Successfully installed Test-Mojo-WithRoles-0.02
+--> Working on Test2::Suite
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000130.tar.gz ... OK
+Configuring Test2-Suite-0.000130 ... OK
+==> Found dependencies: Sub::Info, Importer, Term::Table
+--> Working on Sub::Info
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Sub-Info-0.002.tar.gz ... OK
+Configuring Sub-Info-0.002 ... OK
+==> Found dependencies: Importer
+--> Working on Importer
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Importer-0.025.tar.gz ... OK
+Configuring Importer-0.025 ... OK
+Building and testing Importer-0.025 ... OK
+Successfully installed Importer-0.025
+Building and testing Sub-Info-0.002 ... OK
+Successfully installed Sub-Info-0.002
+--> Working on Term::Table
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Term-Table-0.015.tar.gz ... OK
+Configuring Term-Table-0.015 ... OK
+Building and testing Term-Table-0.015 ... OK
+Successfully installed Term-Table-0.015
+Building and testing Test2-Suite-0.000130 ... OK
+Successfully installed Test2-Suite-0.000130
+--> Working on JavaScript::Value::Escape
+Fetching http://www.cpan.org/authors/id/K/KA/KAZEBURO/JavaScript-Value-Escape-0.07.tar.gz ... OK
+Configuring JavaScript-Value-Escape-0.07 ... OK
+Building and testing JavaScript-Value-Escape-0.07 ... OK
+Successfully installed JavaScript-Value-Escape-0.07
+Building and testing Mojo-Phantom-0.11 ... OK
+Successfully installed Mojo-Phantom-0.11
+--> Working on Authen::Passphrase::BlowfishCrypt
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Authen-Passphrase-0.008.tar.gz ... OK
+Configuring Authen-Passphrase-0.008 ... OK
+==> Found dependencies: Authen::DecHpwd, Data::Entropy::Algorithms, Crypt::Eksblowfish::Bcrypt, Crypt::MySQL, Digest::MD4, Crypt::UnixCrypt_XS, Crypt::DES, Crypt::Eksblowfish::Uklblowfish
+--> Working on Authen::DecHpwd
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Authen-DecHpwd-2.007.tar.gz ... OK
+Configuring Authen-DecHpwd-2.007 ... OK
+==> Found dependencies: Data::Integer, Scalar::String, Digest::CRC
+--> Working on Data::Integer
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Data-Integer-0.006.tar.gz ... OK
+Configuring Data-Integer-0.006 ... OK
+Building and testing Data-Integer-0.006 ... OK
+Successfully installed Data-Integer-0.006
+--> Working on Scalar::String
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Scalar-String-0.003.tar.gz ... OK
+Configuring Scalar-String-0.003 ... OK
+Building and testing Scalar-String-0.003 ... OK
+Successfully installed Scalar-String-0.003
+--> Working on Digest::CRC
+Fetching http://www.cpan.org/authors/id/O/OL/OLIMAUL/Digest-CRC-0.22.2.tar.gz ... OK
+Configuring Digest-CRC-0.22 ... OK
+Building and testing Digest-CRC-0.22 ... OK
+Successfully installed Digest-CRC-0.22
+Building and testing Authen-DecHpwd-2.007 ... OK
+Successfully installed Authen-DecHpwd-2.007
+--> Working on Data::Entropy::Algorithms
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Data-Entropy-0.007.tar.gz ... OK
+Configuring Data-Entropy-0.007 ... OK
+==> Found dependencies: Crypt::Rijndael, HTTP::Lite, Data::Float
+--> Working on Crypt::Rijndael
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.14.tar.gz ... OK
+Configuring Crypt-Rijndael-1.14 ... OK
+Building and testing Crypt-Rijndael-1.14 ... OK
+Successfully installed Crypt-Rijndael-1.14
+--> Working on HTTP::Lite
+Fetching http://www.cpan.org/authors/id/N/NE/NEILB/HTTP-Lite-2.44.tar.gz ... OK
+Configuring HTTP-Lite-2.44 ... OK
+Building and testing HTTP-Lite-2.44 ... OK
+Successfully installed HTTP-Lite-2.44
+--> Working on Data::Float
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Data-Float-0.013.tar.gz ... OK
+Configuring Data-Float-0.013 ... OK
+Building and testing Data-Float-0.013 ... OK
+Successfully installed Data-Float-0.013
+Building and testing Data-Entropy-0.007 ... OK
+Successfully installed Data-Entropy-0.007
+--> Working on Crypt::Eksblowfish::Bcrypt
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Crypt-Eksblowfish-0.009.tar.gz ... OK
+Configuring Crypt-Eksblowfish-0.009 ... OK
+==> Found dependencies: Class::Mix
+--> Working on Class::Mix
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Class-Mix-0.006.tar.gz ... OK
+Configuring Class-Mix-0.006 ... OK
+Building and testing Class-Mix-0.006 ... OK
+Successfully installed Class-Mix-0.006
+Building and testing Crypt-Eksblowfish-0.009 ... OK
+Successfully installed Crypt-Eksblowfish-0.009
+--> Working on Crypt::MySQL
+Fetching http://www.cpan.org/authors/id/I/IK/IKEBE/Crypt-MySQL-0.04.tar.gz ... OK
+Configuring Crypt-MySQL-0.04 ... OK
+==> Found dependencies: Digest::SHA1
+--> Working on Digest::SHA1
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/Digest-SHA1-2.13.tar.gz ... OK
+Configuring Digest-SHA1-2.13 ... OK
+Building and testing Digest-SHA1-2.13 ... OK
+Successfully installed Digest-SHA1-2.13
+Building and testing Crypt-MySQL-0.04 ... OK
+Successfully installed Crypt-MySQL-0.04
+--> Working on Digest::MD4
+Fetching http://www.cpan.org/authors/id/M/MI/MIKEM/DigestMD4/Digest-MD4-1.9.tar.gz ... OK
+Configuring Digest-MD4-1.9 ... OK
+Building and testing Digest-MD4-1.9 ... OK
+Successfully installed Digest-MD4-1.9
+--> Working on Crypt::UnixCrypt_XS
+Fetching http://www.cpan.org/authors/id/B/BO/BORISZ/Crypt-UnixCrypt_XS-0.11.tar.gz ... OK
+Configuring Crypt-UnixCrypt_XS-0.11 ... OK
+Building and testing Crypt-UnixCrypt_XS-0.11 ... OK
+Successfully installed Crypt-UnixCrypt_XS-0.11
+--> Working on Crypt::DES
+Fetching http://www.cpan.org/authors/id/D/DP/DPARIS/Crypt-DES-2.07.tar.gz ... OK
+Configuring Crypt-DES-2.07 ... OK
+Building and testing Crypt-DES-2.07 ... OK
+Successfully installed Crypt-DES-2.07
+Building and testing Authen-Passphrase-0.008 ... OK
+Successfully installed Authen-Passphrase-0.008
+--> Working on Term::ReadKey
+Fetching http://www.cpan.org/authors/id/J/JS/JSTOWE/TermReadKey-2.38.tar.gz ... OK
+Configuring TermReadKey-2.38 ... OK
+Building and testing TermReadKey-2.38 ... OK
+Successfully installed TermReadKey-2.38
+--> Working on Term::Prompt
+Fetching http://www.cpan.org/authors/id/P/PE/PERSICOM/Term-Prompt-1.04.tar.gz ... OK
+Configuring Term-Prompt-1.04 ... OK
+Building and testing Term-Prompt-1.04 ... OK
+Successfully installed Term-Prompt-1.04
+--> Working on DBIx::ProcedureCall
+Fetching http://www.cpan.org/authors/id/T/TH/THILO/DBIx-ProcedureCall-0.11.tar.gz ... OK
+Configuring DBIx-ProcedureCall-0.11 ... OK
+Building and testing DBIx-ProcedureCall-0.11 ... OK
+Successfully installed DBIx-ProcedureCall-0.11
+--> Working on Storable
+Fetching http://www.cpan.org/authors/id/X/XS/XSAWYERX/Storable-3.15.tar.gz ... OK
+Configuring Storable-3.15 ... OK
+Building and testing Storable-3.15 ... OK
+Successfully installed Storable-3.15 (upgraded from 2.62)
+--> Working on Redis
+Fetching http://www.cpan.org/authors/id/D/DA/DAMS/Redis-1.996.tar.gz ... OK
+Configuring Redis-1.996 ... OK
+==> Found dependencies: IO::Socket::Timeout, Test::SharedFork, Test::TCP
+--> Working on IO::Socket::Timeout
+Fetching http://www.cpan.org/authors/id/D/DA/DAMS/IO-Socket-Timeout-0.32.tar.gz ... OK
+Configuring IO-Socket-Timeout-0.32 ... OK
+==> Found dependencies: PerlIO::via::Timeout, Test::TCP
+--> Working on PerlIO::via::Timeout
+Fetching http://www.cpan.org/authors/id/D/DA/DAMS/PerlIO-via-Timeout-0.32.tar.gz ... OK
+Configuring PerlIO-via-Timeout-0.32 ... OK
+==> Found dependencies: Test::TCP
+--> Working on Test::TCP
+Fetching http://www.cpan.org/authors/id/M/MI/MIYAGAWA/Test-TCP-2.22.tar.gz ... OK
+Configuring Test-TCP-2.22 ... OK
+==> Found dependencies: Test::SharedFork
+--> Working on Test::SharedFork
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-SharedFork-0.35.tar.gz ... OK
+Configuring Test-SharedFork-0.35 ... OK
+==> Found dependencies: Test::Requires
+--> Working on Test::Requires
+Fetching http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz ... OK
+Configuring Test-Requires-0.11 ... OK
+Building and testing Test-Requires-0.11 ... OK
+Successfully installed Test-Requires-0.11
+Building and testing Test-SharedFork-0.35 ... OK
+Successfully installed Test-SharedFork-0.35
+Building and testing Test-TCP-2.22 ... OK
+Successfully installed Test-TCP-2.22
+Building and testing PerlIO-via-Timeout-0.32 ... OK
+Successfully installed PerlIO-via-Timeout-0.32
+Building and testing IO-Socket-Timeout-0.32 ... OK
+Successfully installed IO-Socket-Timeout-0.32
+Building and testing Redis-1.996 ... OK
+Successfully installed Redis-1.996
+--> Working on Crypt::OpenSSL::RSA
+Fetching http://www.cpan.org/authors/id/T/TO/TODDR/Crypt-OpenSSL-RSA-0.31.tar.gz ... OK
+==> Found dependencies: Crypt::OpenSSL::Guess
+--> Working on Crypt::OpenSSL::Guess
+Fetching http://www.cpan.org/authors/id/A/AK/AKIYM/Crypt-OpenSSL-Guess-0.11.tar.gz ... OK
+Configuring Crypt-OpenSSL-Guess-0.11 ... OK
+Building and testing Crypt-OpenSSL-Guess-0.11 ... OK
+Successfully installed Crypt-OpenSSL-Guess-0.11
+Configuring Crypt-OpenSSL-RSA-0.31 ... OK
+==> Found dependencies: Crypt::OpenSSL::Random
+--> Working on Crypt::OpenSSL::Random
+Fetching http://www.cpan.org/authors/id/R/RU/RURBAN/Crypt-OpenSSL-Random-0.15.tar.gz ... OK
+Configuring Crypt-OpenSSL-Random-0.15 ... OK
+Building and testing Crypt-OpenSSL-Random-0.15 ... OK
+Successfully installed Crypt-OpenSSL-Random-0.15
+Building and testing Crypt-OpenSSL-RSA-0.31 ... OK
+Successfully installed Crypt-OpenSSL-RSA-0.31
+--> Working on Gravatar::URL
+Fetching http://www.cpan.org/authors/id/M/MS/MSCHWERN/Gravatar-URL-1.07.tar.gz ... OK
+Configuring Gravatar-URL-1.07 ... OK
+==> Found dependencies: Test::MockRandom
+--> Working on Test::MockRandom
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-MockRandom-1.01.tar.gz ... OK
+Configuring Test-MockRandom-1.01 ... OK
+Building and testing Test-MockRandom-1.01 ... OK
+Successfully installed Test-MockRandom-1.01
+Building and testing Gravatar-URL-1.07 ... OK
+Successfully installed Gravatar-URL-1.07
+--> Working on Mojolicious::Plugin::Gzip
+Fetching http://www.cpan.org/authors/id/S/SR/SRCHULO/Mojolicious-Plugin-Gzip-0.04.tar.gz ... OK
+Configuring Mojolicious-Plugin-Gzip-0.04 ... OK
+Building and testing Mojolicious-Plugin-Gzip-0.04 ... OK
+Successfully installed Mojolicious-Plugin-Gzip-0.04
+--> Working on Excel::Writer::XLSX
+Fetching http://www.cpan.org/authors/id/J/JM/JMCNAMARA/Excel-Writer-XLSX-1.04.tar.gz ... OK
+Configuring Excel-Writer-XLSX-1.04 ... OK
+Building and testing Excel-Writer-XLSX-1.04 ... OK
+Successfully installed Excel-Writer-XLSX-1.04
+113 distributions installed
