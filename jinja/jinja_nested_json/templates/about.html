@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+
+{% block title %}
+About page
+{% endblock %}
+
+
+{% block content %}
+<h1>{{ cnf_file }}</h1>
+<p>
+    {% for each_category in all_content -%}
+    {{ each_category }}
+        {% for each_subcategory in all_content[each_category] %}
+            {{ each_subcategory }} {{ all_content[each_category][each_subcategory] }}
+        {% endfor %}
+    {% endfor %}
+
+</p>
+{% endblock %}

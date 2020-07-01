@@ -1,0 +1,62 @@
+    {% for each_category in all_content -%}
+        {% for each_subcategory in all_content[each_category] %}
+            {{ each_subcategory }} {{ all_content[each_category][each_subcategory] }}
+        {% endfor %}
+    {% endfor %}
+
+
+
+    db_content = all_content['db']
+ssh_content = all_content['ssh']
+redis_content = all_content['redis']
+log_content = all_content['log']
+git_content = all_content['git']
+app_content = all_content['app']
+aws_content = all_content['aws']
+
+# # printing out the content of dev.env.json
+#     for every_category, cat_content in env_dict.items():
+#         print(every_category, ' ---')
+#         for every_subcategory, subcat_content in cat_content.items():
+#             print('   ', every_subcategory, ' ---')
+#             for every_item, value in subcat_content.items():
+#                 print('      ', every_item, ':', value)
+
+"""
+    for db in env_dict["env"][0]["db"]["postgres_db_user_pw"]:
+        if db["postgres_db_user"] == "usrdevqtoapp":
+            value = db["postgres_db_user_pw"]
+            break
+    print(value)
+"""
+"""
+    for p in data['env']:
+        print('postgres_db_host: ' + p['postgres_db_host'])
+        print('ssh_server: ' + p['ssh_server'])
+        print('git_clone_url: ' + p['git_clone_url'])
+        print('')
+"""
+"""
+jsonConfigName = "dev.env.json"
+print("jsonConfigName: " + jsonConfigName)
+with open(jsonConfigName) as json_file:
+    json_data = json.load(json_file)
+    print(json_data)
+"""
+
+
+,
+                         db_content=db_content,
+                         ssh_content=ssh_content,
+                         redis_content=redis_content,
+                         log_content=log_content,
+                         git_content=git_content,
+                         app_content=app_content,
+                         aws_content=aws_content
+
+# if len(sys.argv) < 2:
+#     print('Usage: ' + sys.argv[0] + ' <filename>')
+#     sys.exit(1)
+#
+# print('This is the name of the python script: ' + sys.argv[0])
+# print('This is the 1st argument:              ' + sys.argv[1])
